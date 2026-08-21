@@ -24,5 +24,7 @@ npm run dev
 
 ### 6. Open a browser and enter the URL displayed on your terminal (http://localhost:5173/ by default, but you should follow the one displayed on your terminal if it uses a different port)
 
+<hr>
+
 #### <p>If you don't have git, you can just download the .zip from here</p>
 #### <p>Don't forget to take a look on my other projects</p>
