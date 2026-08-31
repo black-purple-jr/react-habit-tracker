@@ -1,8 +1,9 @@
 {
-  "name": "react-app",
+  "name": "react-habit-tracker",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author": "Abdellah DAKIR ALLAH black-purple-jr",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

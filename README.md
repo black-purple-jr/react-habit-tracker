@@ -1,30 +1,94 @@
-# TypeScript + React Habit tracker app
+# Habit tracker app
 
-a simple front-end app built with react that lets you manage and track your habits
+## Overview
 
-<br>
+A simple front-end app built with TypeScript, React.js and Tailwindcss that lets you manage and track your habits smoothly.
 
-## if you want to test this project on your local machine you need to follow these steps (Git should be installed on your machine):
+## Features
 
-### 1. Open your terminal:
-### 2. Choose the directory you want from the terminal (ex: desktop):
-### 3. Enter this command:
-```bash
-git clone https://github.com/black-purple-jr/react-habit-traker
+* Add, edit, and delete habits.
+* Track daily / weekly progress and streaks.
+* Visual habit calendar.
+* Clean, responsive UI with icon-based habit categories.
+
+## Technology Used
+
+* React 19 + TypeScript
+* Vite (build tool)
+* Tailwind CSS v4
+
+## Packages
+
+* `date-fns` — date handling and streak/calendar calculations.
+* `lucide-react` — icon set.
+* `tailwind-merge` — utility for merging Tailwind class names.
+
+## Project structure
+
 ```
-### 4. Enter the cloned directory and enter this command:
-```bash
-C:/.../react-habit-tracker> npm install
+react-habit-tracker/
+├── node_modules/
+├── public/
+├── src/
+|   ├── assets/
+|   |   └── favicon.svg
+|   ├── components/
+|   |   ├── Button.tsx
+|   |   ├── Header.tsx
+|   |   ├── HabitForm.tsx
+|   |   ├── HabitList.tsx
+|   |   └── HabitItem.tsx
+|   ├── context/
+|   |   ├── HabitProvider.tsx
+|   |   └── useHabits.ts
+|   ├── hooks/
+|   |   └── useLocalStorage.ts
+|   ├── App.tsx
+|   ├── main.tsx
+|   └── index.css
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
 ```
 
-### 5. Run a development server:
+## Quick Start
+
+### Prerequisites
+
+* Git
+* Node
+* NPM (comes with Node)
+
+### Installation
+
+#### 1. clone the repo locally
+
+```bash
+git clone https://github.com/black-purple-jr/react-habit-tracker
+```
+
+#### 2. install the necessary dependencies
+
+```bash
+npm install
+```
+
+#### 3. run a local dev server
+
 ```bash
 npm run dev
 ```
 
-### 6. Open a browser and enter the URL displayed on your terminal (http://localhost:5173/ by default, but you should follow the one displayed on your terminal if it uses a different port)
+## License
 
-<hr>
+This project is under MIT License — see [LICENSE](LICENSE) for details.
 
-#### <p>If you don't have git, you can just download the .zip from here and start from step 4</p>
-#### <p>Don't forget to take a look on my other projects</p>
+## Author
+
+* Abdellah DAKIR ALLAH - [black-purple-jr](https://github.com/black-purple-jr) on GitHub and other platforms.
