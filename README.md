@@ -30,22 +30,22 @@ react-habit-tracker/
 ├── node_modules/
 ├── public/
 ├── src/
-|   ├── assets/
-|   |   └── favicon.svg
-|   ├── components/
-|   |   ├── Button.tsx
-|   |   ├── Header.tsx
-|   |   ├── HabitForm.tsx
-|   |   ├── HabitList.tsx
-|   |   └── HabitItem.tsx
-|   ├── context/
-|   |   ├── HabitProvider.tsx
-|   |   └── useHabits.ts
-|   ├── hooks/
-|   |   └── useLocalStorage.ts
-|   ├── App.tsx
-|   ├── main.tsx
-|   └── index.css
+│   ├── assets/
+│   |   └── favicon.svg
+│   ├── components/
+│   │   ├── Button.tsx
+│   │   ├── Header.tsx
+│   │   ├── HabitForm.tsx
+│   │   ├── HabitList.tsx
+│   │   └── HabitItem.tsx
+│   ├── context/
+│   │   ├── HabitProvider.tsx
+│   │   └── useHabits.ts
+│   ├── hooks/
+│   │   └── useLocalStorage.ts
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
 ├── .gitignore
 ├── eslint.config.js
 ├── index.html
