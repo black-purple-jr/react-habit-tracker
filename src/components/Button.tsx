@@ -1,10 +1,10 @@
-import type { ComponentProps } from "react";
+import { type ComponentProps, type ReactNode } from "react";
 import { twMerge } from 'tailwind-merge';
 
 type Variant = "primary" | "secondary" | "ghost-destructive";
 type ButtonProps = { variant?: Variant } & ComponentProps<"button">;
 
-export default function Button({ variant = "primary", className, ...props }: ButtonProps): React.ReactNode {
+export default function Button({ variant = "primary", className, ...props }: ButtonProps): ReactNode {
 
   function getVariantStyles(variant: Variant) {
     switch (variant) {

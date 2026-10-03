@@ -19,9 +19,9 @@ A simple front-end app built with TypeScript, React.js and Tailwindcss that lets
 
 ## Packages
 
-* `date-fns` — date handling and streak/calendar calculations.
-* `lucide-react` — icon set.
-* `tailwind-merge` — utility for merging Tailwind class names.
+* `date-fns`: date handling and streak/calendar calculations.
+* `lucide-react`: icon set.
+* `tailwind-merge`: utility for merging Tailwind class names.
 
 ## Project structure
 
